@@ -1,0 +1,11 @@
+.mensagem-de-entrada{
+  background-color: #D9D9D9;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mensagem-de-entrada > h1{
+  text-align: center;
+  border-bottom: 4px solid #3E3E3E;
+}

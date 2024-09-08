@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.titulo{
+  font-size: 40px;
+  font-family: Arial;
+  font-family: "Poppins";
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.redondo{
+  border-radius: 50%;
+}
