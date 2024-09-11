@@ -3,6 +3,10 @@
   margin: 0;
   list-style: none;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 .titulo{
   font-size: 40px;
   font-family: Arial;

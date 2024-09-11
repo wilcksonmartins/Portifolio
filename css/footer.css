@@ -4,6 +4,9 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+.rede-sociais{
+  margin-right: 20px;
+}
 .rede-sociais ul > li > a{
   display: block;
   text-decoration: none;
@@ -11,7 +14,9 @@
   font-size: 1.5rem;
   padding-top: 10px;
 }
-
+.rede-sociais ul > li > a:hover{
+  text-decoration: underline;
+}
 .rodape > .descricao-rodape{
   font-size: 1.6rem;
 }
@@ -20,4 +25,21 @@
   background-color: #D9D9D9;
   font-size: 1.2rem;
   margin-top: 30px;
+}
+
+@media (max-width:900px){
+  .rodape{
+    grid-template-columns: 1fr;
+  }
+  .rodape > .rede-sociais{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .rodape > .descricao-rodape{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
 }
