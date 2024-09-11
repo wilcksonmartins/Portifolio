@@ -30,6 +30,7 @@
 @media (max-width:900px){
   .rodape{
     grid-template-columns: 1fr;
+    margin-top: 100px;
   }
   .rodape > .rede-sociais{
     margin-left: 20px;
